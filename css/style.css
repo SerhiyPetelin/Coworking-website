@@ -28,7 +28,23 @@ img {
 
 .special-divider {
     border: none;
-    background-color: var(--paragraph-secondary-dark);
+    background-color: var(--button-bg-color);
     height: 1px;
     width: 30%;
+}
+
+body{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header {
+    background-image: url(../img/header_bg.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
