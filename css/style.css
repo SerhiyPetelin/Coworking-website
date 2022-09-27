@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Varela&display=swap');
 
 
 * {
@@ -38,7 +38,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
 }
 
 .header {
@@ -56,13 +55,15 @@ body{
 }
 
 .header_contacts__number {
+    font-weight: 600;
     font-size: 14px;
 }
 
-.logo a{
-    font-size: 32px;
+.logo a{    
     text-decoration: none;
     color: var(--title-base-color);
+    font-weight: 600;
+    font-size: 32px;
 }
 
 .header_nav__menu {
@@ -85,4 +86,55 @@ body{
     font-family: 'Varela', sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+.header_nav__info {
+    padding: 165px 0 100px;
+    text-align: center;
+}
+
+.header_nav__content h1 {    
+    color: var(--title-base-color);
+    font-size: 90px;
+}
+
+.header_nav__content h1 span {
+    color: var(--button-bg-color);
+}
+
+.header_nav__content h6 {
+    padding: 32px;
+    color: var(--title-base-color);
+    font-family: 'Varela', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header_btn {
+    text-decoration: none;
+    color: var(--subtitle-color);
+    font-weight: 600;
+    font-size: 13px;
+    padding: 20px 50px;
+    margin: 40px 0 ;
+    background-color: var(--title-base-color);
+    border-radius: 30px;
+}
+
+.header_btn:hover {
+    color: var(--title-base-color);
+    background-color: var(--button-bg-color);
+    transition: all 0.3s ease-out;
+}
+
+.header_nav__count_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card_item {
+    height: 200px;
+    background-color: var(--header-card-bg);
+    
 }
