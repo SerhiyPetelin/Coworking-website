@@ -34,7 +34,7 @@ img {
 }
 
 body{
-    color: #fff;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -47,4 +47,42 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.header_contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.header_contacts__number {
+    font-size: 14px;
+}
+
+.logo a{
+    font-size: 32px;
+    text-decoration: none;
+    color: var(--title-base-color);
+}
+
+.header_nav__menu {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav__menu-list ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.header_nav__menu-list ul li a {
+    text-decoration: none;
+    color: var(--title-base-color);
+    font-family: 'Varela', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
