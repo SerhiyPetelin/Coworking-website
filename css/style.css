@@ -42,7 +42,6 @@ body {
 
 .header {
     background-image: url(../img/header_bg.webp);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -54,9 +53,40 @@ body {
     padding: 5px 0;
 }
 
-.header_contacts__number {
+.header_contacts__number {    
+    color: var(--title-base-color);
     font-weight: 600;
     font-size: 14px;
+}
+
+.header_contacts__number a {
+    text-decoration: none;
+    color: var(--title-base-color);
+}
+
+.header_contacts__number a:hover {
+    color: var(--button-bg-color);
+}
+
+.header_contacts__sotial a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: var(--title-base-color);
+    transition: all 0.5s ease;
+}
+
+.header_contacts__sotial a:not(:last-child) {
+    margin: 0 10px 10px 0;
+}
+
+.header_contacts__sotial a:hover {
+    color: var(--title-dark-color);
+    background-color: var(--title-base-color);
 }
 
 .logo a {
@@ -124,7 +154,7 @@ body {
 .header_btn:hover {
     color: var(--title-base-color);
     background-color: var(--button-bg-color);
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease;
 }
 
 .header_nav__count_cards {
