@@ -53,7 +53,7 @@ body {
     padding: 5px 0;
 }
 
-.header_contacts__number {    
+.header_contacts__number {
     color: var(--title-base-color);
     font-weight: 600;
     font-size: 14px;
@@ -72,7 +72,7 @@ body {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -116,6 +116,21 @@ body {
     font-family: 'Varela', sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+.header_nav__menu-list ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: var(--button-bg-color);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.header_nav__menu-list ul li:hover::after {
+    width: 100%;
 }
 
 .header_nav__content {
@@ -166,5 +181,21 @@ body {
 .card_item {
     height: 200px;
     background-color: var(--header-card-bg);
+}
+
+
+/* Start welcome section */
+
+.welcome_content {
+    padding: 100px 0;
+    background-image: url(../img/welcome_bg.webp);
+    background-position: 100% 0;
+}
+
+.welcome_content__text h2 {
+    padding: 30px 0 20px 0;
+    color: var(--title-dark-color);
+    font-weight: 600;
+    font-size: 44px;
 
 }
