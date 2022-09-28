@@ -33,7 +33,7 @@ img {
     width: 30%;
 }
 
-body{
+body {
     color: #000;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -59,7 +59,7 @@ body{
     font-size: 14px;
 }
 
-.logo a{    
+.logo a {
     text-decoration: none;
     color: var(--title-base-color);
     font-weight: 600;
@@ -73,7 +73,7 @@ body{
     align-items: center;
 }
 
-.header_nav__menu-list ul li{
+.header_nav__menu-list ul li {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
@@ -88,12 +88,12 @@ body{
     font-size: 15px;
 }
 
-.header_nav__info {
-    padding: 165px 0 100px;
+.header_nav__content {
+    padding-top: 165px;
     text-align: center;
 }
 
-.header_nav__content h1 {    
+.header_nav__content h1 {
     color: var(--title-base-color);
     font-size: 90px;
 }
@@ -116,7 +116,7 @@ body{
     font-weight: 600;
     font-size: 13px;
     padding: 20px 50px;
-    margin: 40px 0 ;
+    margin: 40px 0;
     background-color: var(--title-base-color);
     border-radius: 30px;
 }
@@ -136,5 +136,5 @@ body{
 .card_item {
     height: 200px;
     background-color: var(--header-card-bg);
-    
+
 }
